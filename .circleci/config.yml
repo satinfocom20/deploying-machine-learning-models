@@ -76,6 +76,7 @@ jobs:
           name: Install requirements
           command: |
             . venv/bin/activate
+            pip install --upgrade pip==19.1
             pip install -r packages/regression_model/requirements.txt
       - *fetch_data
       - run: 
