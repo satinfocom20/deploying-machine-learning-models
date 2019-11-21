@@ -1,4 +1,5 @@
---extra-index-url=${PIP_EXTRA_INDEX_URL}
+#--extra-index-url=${PIP_EXTRA_INDEX_URL}
+--extra-index-url=https://U9EZHGEzfsY6ngpPiXDi@pypi.fury.io/satinfocom20/
 
 # api
 flask==1.0.2
